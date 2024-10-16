@@ -1,3 +1,3 @@
-# LimbusCompany-Random-Identity
+# 림버스 컴퍼니 랜덤 인격 뽑기
 ---
 
