@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'KotraBold';
+    src: url('fonts/KOTRA_BOLD.ttf') format('truetype');
+    font-weight: bold;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'KotraBold', sans-serif;
     background-color: #f4f4f4;
     text-align: center;
     padding: 20px;

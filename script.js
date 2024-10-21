@@ -459,7 +459,627 @@ const characters = [
             blunt: "취약"
         }
     },
-    
+    {
+        name: "[ LCB 수감자 ] 홍루",
+        image: "images/Hong Lu/기본홍루.png",
+        resistances: {
+            slash: "취약",
+            pierce: "보통",
+            blunt: "내성"
+        }
+    },
+    {
+        name: "[ 흑운회 와카슈 ] 홍루",
+        image: "images/Hong Lu/흑루.png",
+        resistances: {
+            slash: "내성",
+            pierce: "보통",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ 남부 리우 협회 5과 ] 홍루",
+        image: "images/Hong Lu/리홍.png",
+        resistances: {
+            slash: "보통",
+            pierce: "취약",
+            blunt: "내성"
+        }
+    },
+    {
+        name: "[ W사 2등급 정리 요원 ] 홍루",
+        image: "images/Hong Lu/W홍.png",
+        resistances: {
+            slash: "내성",
+            pierce: "보통",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ 갈고리 사무소 해결사 ] 홍루",
+        image: "images/Hong Lu/갈루.png",
+        resistances: {
+            slash: "보통",
+            pierce: "내성",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ 송곳니 사냥 사무소 해결사 ] 홍루",
+        image: "images/Hong Lu/송루.png",
+        resistances: {
+            slash: "취약",
+            pierce: "내성",
+            blunt: "보통"
+        }
+    },
+    {
+        name: "[ 콩콩이파 두목 ] 홍루",
+        image: "images/Hong Lu/콩루.png",
+        resistances: {
+            slash: "내성",
+            pierce: "보통",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ K사 3등급 적출직 직원 ] 홍루",
+        image: "images/Hong Lu/K루.png",
+        resistances: {
+            slash: "취약",
+            pierce: "내성",
+            blunt: "보통"
+        }
+    },
+    {
+        name: "[ 남부 디에치 협회 4과 ] 홍루",
+        image: "images/Hong Lu/디루.png",
+        resistances: {
+            slash: "내성",
+            pierce: "취약",
+            blunt: "보통"
+        }
+    },
+    {
+        name: "[ 20구 유로지비 ] 홍루",
+        image: "images/Hong Lu/유로지비홍루.png",
+        resistances: {
+            slash: "보통",
+            pierce: "내성",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ 남부 시 협회 5과 ] 히스클리프",
+        image: "images/HEATHCLIFF/시히스.png",
+        resistances: {
+            slash: "내성",
+            pierce: "취약",
+            blunt: "보통"
+        }
+    },
+    {
+        name: "[ N사 작은 망치 ] 히스클리프",
+        image: "images/HEATHCLIFF/N히스.png",
+        resistances: {
+            slash: "내성",
+            pierce: "보통",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ 남부 세븐 협회 4과 ] 히스클리프",
+        image: "images/HEATHCLIFF/세븐히스.png",
+        resistances: {
+            slash: "보통",
+            pierce: "내성",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ 멀티크랙 사무소 해결사 ] 히스클리프",
+        image: "images/HEATHCLIFF/멀티히스.png",
+        resistances: {
+            slash: "보통",
+            pierce: "취약",
+            blunt: "내성"
+        }
+    },
+    {
+        name: "[ R사 제 4무리 토끼팀 ] 히스클리프",
+        image: "images/HEATHCLIFF/R히스.png",
+        resistances: {
+            slash: "보통",
+            pierce: "내성",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ 로보토미 E.G.O 여우비 ] 히스클리프",
+        image: "images/HEATHCLIFF/여히스.png",
+        resistances: {
+            slash: "취약",
+            pierce: "보통",
+            blunt: "내성"
+        }
+    },
+    {
+        name: "[ 피쿼드호 작살잡이 ] 히스클리프",
+        image: "images/HEATHCLIFF/퀴히스.png",
+        resistances: {
+            slash: "취약",
+            pierce: "내성",
+            blunt: "보통"
+        }
+    },
+    {
+        name: "[ 남부 외우피 협회 3과 ] 히스클리프",
+        image: "images/HEATHCLIFF/외히스.png",
+        resistances: {
+            slash: "내성",
+            pierce: "취약",
+            blunt: "보통"
+        }
+    },
+    {
+        name: "[ 와일드헌트 ] 히스클리프",
+        image: "images/HEATHCLIFF/와히스.png",
+        resistances: {
+            slash: "내성",
+            pierce: "보통",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ LCB 수감자 ] 이스마엘",
+        image: "images/ISMAEL/기본이스.png",
+        resistances: {
+            slash: "취약",
+            pierce: "보통",
+            blunt: "내성"
+        }
+    },
+    {
+        name: "[ 남부 시 협회 5과 ] 이스마엘",
+        image: "images/ISMAEL/시이스.png",
+        resistances: {
+            slash: "내성",
+            pierce: "취약",
+            blunt: "보통"
+        }
+    },
+    {
+        name: "[ LCCB 대리 ] 이스마엘",
+        image: "images/ISMAEL/대리이스.png",
+        resistances: {
+            slash: "보통",
+            pierce: "취약",
+            blunt: "내성"
+        }
+    },
+    {
+        name: "[ 로보토미 E.G.O 출렁임 ] 이스마엘",
+        image: "images/ISMAEL/출렁임이스.png",
+        resistances: {
+            slash: "내성",
+            pierce: "취약",
+            blunt: "보통"
+        }
+    },
+    {
+        name: "[ 에드가 가문 버틀러 ] 이스마엘",
+        image: "images/ISMAEL/버이스.png",
+        resistances: {
+            slash: "보통",
+            pierce: "취약",
+            blunt: "내성"
+        }
+    },
+    {
+        name: "[ R사 제 4무리 순록팀 ] 이스마엘",
+        image: "images/ISMAEL/R이스.png",
+        resistances: {
+            slash: "취약",
+            pierce: "보통",
+            blunt: "내성"
+        }
+    },
+    {
+        name: "[ 남부 리우 협회 4과 ] 이스마엘",
+        image: "images/ISMAEL/리우이스.png",
+        resistances: {
+            slash: "보통",
+            pierce: "취약",
+            blunt: "내성"
+        }
+    },
+    {
+        name: "[ 어금니 보트 센터 해결사 ] 이스마엘",
+        image: "images/ISMAEL/어금니이스.png",
+        resistances: {
+            slash: "취약",
+            pierce: "내성",
+            blunt: "보통"
+        }
+    },
+    {
+        name: "[ 피쿼드호 선장 ] 이스마엘",
+        image: "images/ISMAEL/선장이스.png",
+        resistances: {
+            slash: "보통",
+            pierce: "내성",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ 서부 츠바이 협회 3과 ] 이스마엘",
+        image: "images/ISMAEL/츠이스.png",
+        resistances: {
+            slash: "보통",
+            pierce: "취약",
+            blunt: "내성"
+        }
+    },
+    {
+        name: "[ LCB 수감자 ] 로쟈",
+        image: "images/Rodion/기본로쟈.png",
+        resistances: {
+            slash: "내성",
+            pierce: "보통",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ LCCB 대리 ] 로쟈",
+        image: "images/Rodion/대리로쟈.png",
+        resistances: {
+            slash: "보통",
+            pierce: "취약",
+            blunt: "내성"
+        }
+    },
+    {
+        name: "[ N사 중간 망치 ] 로쟈",
+        image: "images/Rodion/N로쟈.png",
+        resistances: {
+            slash: "내성",
+            pierce: "보통",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ 남부 츠바이 협회 5과 ] 로쟈",
+        image: "images/Rodion/츠로쟈.png",
+        resistances: {
+            slash: "취약",
+            pierce: "보통",
+            blunt: "내성"
+        }
+    },
+    {
+        name: "[ T사 2등급 징수직 직원 ] 로쟈",
+        image: "images/Rodion/T로쟈.png",
+        resistances: {
+            slash: "내성",
+            pierce: "취약",
+            blunt: "보통"
+        }
+    },
+    {
+        name: "[ 흑운회 와카슈 ] 로쟈",
+        image: "images/Rodion/흑로쟈.png",
+        resistances: {
+            slash: "내성",
+            pierce: "보통",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ 장미스패너 공방 대표 ] 로쟈",
+        image: "images/Rodion/장미로쟈.png",
+        resistances: {
+            slash: "내성",
+            pierce: "취약",
+            blunt: "보통"
+        }
+    },
+    {
+        name: "[ 남부 디에치 협회 4과 ] 로쟈",
+        image: "images/Rodion/디로쟈.png",
+        resistances: {
+            slash: "보통",
+            pierce: "취약",
+            blunt: "내성"
+        }
+    },
+    {
+        name: "[ 남부 리우 협회 4과 부장 ] 로쟈",
+        image: "images/Rodion/리우로쟈.png",
+        resistances: {
+            slash: "취약",
+            pierce: "내성",
+            blunt: "보통"
+        }
+    },
+    {
+        name: "[ 북부 제뱌찌 협회 3과 ] 로쟈",
+        image: "images/Rodion/제로쟈.png",
+        resistances: {
+            slash: "보통",
+            pierce: "내성",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ LCB 수감자 ] 싱클레어",
+        image: "images/SINCLAIR/기본싱클.png",
+        resistances: {
+            slash: "내성",
+            pierce: "취약",
+            blunt: "보통"
+        }
+    },
+    {
+        name: "[ 남부 츠바이 협회 6과 ] 싱클레어",
+        image: "images/SINCLAIR/츠싱클.png",
+        resistances: {
+            slash: "취약",
+            pierce: "보통",
+            blunt: "내성"
+        }
+    },
+    {
+        name: "[ 마리아치 보스 ] 싱클레어",
+        image: "images/SINCLAIR/마리아치싱클.png",
+        resistances: {
+            slash: "취약",
+            pierce: "보통",
+            blunt: "내성"
+        }
+    },
+    {
+        name: "[ 로보토미 E.G.O 홍적 ] 싱클레어",
+        image: "images/SINCLAIR/홍적싱클.png",
+        resistances: {
+            slash: "내성",
+            pierce: "보통",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ 어금니 보트 센터 해결사 ] 싱클레어",
+        image: "images/SINCLAIR/어금니싱클.png",
+        resistances: {
+            slash: "취약",
+            pierce: "내성",
+            blunt: "보통"
+        }
+    },
+    {
+        name: "[ 서부 츠바이 협회 3과 ] 싱클레어",
+        image: "images/SINCLAIR/서부츠바이싱클.png",
+        resistances: {
+            slash: "보통",
+            pierce: "취약",
+            blunt: "내성"
+        }
+    },
+    {
+        name: "[ 검계 살수 ] 싱클레어",
+        image: "images/SINCLAIR/검싱.png",
+        resistances: {
+            slash: "내성",
+            pierce: "취약",
+            blunt: "보통"
+        }
+    },
+    {
+        name: "[ 쥐어들 자 ] 싱클레어",
+        image: "images/SINCLAIR/쥐싱.png",
+        resistances: {
+            slash: "취약",
+            pierce: "보통",
+            blunt: "내성"
+        }
+    },
+    {
+        name: "[ 남부 섕크 협회 4과 부장 ] 싱클레어",
+        image: "images/SINCLAIR/섕싱.png",
+        resistances: {
+            slash: "취약",
+            pierce: "내성",
+            blunt: "보통"
+        }
+    },
+    {
+        name: "[ 새벽 사무소 해결사 ] 싱클레어",
+        image: "images/SINCLAIR/필싱.png",
+        resistances: {
+            slash: "내성",
+            pierce: "보통",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ LCB 수감자 ] 오티스",
+        image: "images/OTIS/기본오티스.png",
+        resistances: {
+            slash: "내성",
+            pierce: "보통",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ 검계 살수 ] 오티스",
+        image: "images/OTIS/검티스.png",
+        resistances: {
+            slash: "내성",
+            pierce: "취약",
+            blunt: "보통"
+        }
+    },
+    {
+        name: "[ G사 부장 ] 오티스",
+        image: "images/OTIS/G티스.png",
+        resistances: {
+            slash: "보통",
+            pierce: "내성",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ 남부 섕크 협회 4과 ] 오티스",
+        image: "images/OTIS/섕티스.png",
+        resistances: {
+            slash: "취약",
+            pierce: "내성",
+            blunt: "보통"
+        }
+    },
+    {
+        name: "[ 약지 점묘파 스튜던트 ] 약티스",
+        image: "images/OTIS/기본오티스.png",
+        resistances: {
+            slash: "보통",
+            pierce: "내성",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ 남부 세븐 협회 6과 부장 ] 오티스",
+        image: "images/OTIS/세티스.png",
+        resistances: {
+            slash: "취약",
+            pierce: "보통",
+            blunt: "내성"
+        }
+    },
+    {
+        name: "[ 어금니 사무소 해결사 ] 오티스",
+        image: "images/OTIS/어금니오티스.png",
+        resistances: {
+            slash: "내성",
+            pierce: "취약",
+            blunt: "보통"
+        }
+    },
+    {
+        name: "[ 로보토미 E.G.O::마탄 ] 오티스",
+        image: "images/OTIS/마탄오티스.png",
+        resistances: {
+            slash: "보통",
+            pierce: "내성",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ 워더링하이츠 치프 버틀러 ] 오티스",
+        image: "images/OTIS/버틀러오티스.png",
+        resistances: {
+            slash: "보통",
+            pierce: "취약",
+            blunt: "내성"
+        }
+    },
+    {
+        name: "[ W사 3등급 정리 요원 팀장 ] 오티스",
+        image: "images/OTIS/W티스.png",
+        resistances: {
+            slash: "내성",
+            pierce: "취약",
+            blunt: "보통"
+        }
+    },
+    {
+        name: "[ 라만차랜드 이발사 ] 오티스",
+        image: "images/OTIS/혈티스.png",
+        resistances: {
+            slash: "내성",
+            pierce: "보통",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ LCB 수감자 ] 그레고르",
+        image: "images/GreGor/기본그렉.png",
+        resistances: {
+            slash: "보통",
+            pierce: "내성",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ 남부 리우 협회 6과 ] 그레고르",
+        image: "images/GreGor/리우그렉.png",
+        resistances: {
+            slash: "보통",
+            pierce: "취약",
+            blunt: "내성"
+        }
+    },
+    {
+        name: "[ 료.고.파. 조수 ] 그레고르",
+        image: "images/GreGor/요그렉.png",
+        resistances: {
+            slash: "내성",
+            pierce: "취약",
+            blunt: "보통"
+        }
+    },
+    {
+        name: "[ 장미스패너 공방 해결사 ] 그레고르",
+        image: "images/GreGor/장미그렉.png",
+        resistances: {
+            slash: "내성",
+            pierce: "취약",
+            blunt: "보통"
+        }
+    },
+    {
+        name: "[ 흑운회 부조장 ] 그레고르",
+        image: "images/GreGor/흑그렉.png",
+        resistances: {
+            slash: "보통",
+            pierce: "내성",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ G사 일등대리 ] 그레고르",
+        image: "images/GreGor/G그렉.png",
+        resistances: {
+            slash: "보통",
+            pierce: "내성",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ 남부 츠바이 협회 4과 ] 그레고르",
+        image: "images/GreGor/츠그렉.png",
+        resistances: {
+            slash: "취약",
+            pierce: "보통",
+            blunt: "내성"
+        }
+    },
+    {
+        name: "[ 쌍갈고리 해적단 부선장 ] 그레고르",
+        image: "images/GreGor/갈그렉.png",
+        resistances: {
+            slash: "내성",
+            pierce: "보통",
+            blunt: "취약"
+        }
+    },
+    {
+        name: "[ 에드가 가문 승계자 ] 그레고르",
+        image: "images/GreGor/퐁그렉.png",
+        resistances: {
+            slash: "보통",
+            pierce: "취약`",
+            blunt: "내성"
+        }
+    },
 ];
 
 // 코드
