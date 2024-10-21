@@ -937,8 +937,8 @@ const characters = [
         }
     },
     {
-        name: "[ 약지 점묘파 스튜던트 ] 약티스",
-        image: "images/OTIS/기본오티스.png",
+        name: "[ 약지 점묘파 스튜던트 ] 오티스",
+        image: "images/OTIS/약티스.png",
         resistances: {
             slash: "보통",
             pierce: "내성",
