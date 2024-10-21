@@ -5,38 +5,62 @@
 }
 
 body {
+    background-color: #201B17;
+    color: #E0D7C6;
     font-family: 'KotraBold', sans-serif;
-    background-color: #f4f4f4;
-    text-align: center;
-    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #fff;
+    background: linear-gradient(145deg, #2b2622, #171411);
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #000000, -10px -10px 20px #37302b;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+    height: 650px;
+    position: relative;
+}
+
+h1 {
+    font-size: 2em;
+    color: #F3C25F;
+    text-shadow: 2px 2px 5px #000;
 }
 
 button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #007bff;
-    color: white;
+    font-family: 'KotraBold', sans-serif;
+    background-color: #B94E31;
     border: none;
-    border-radius: 4px;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: translateY(-5px) scale(1.05);
 }
 
 .character-info {
-    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 300px;
 }
 
 #character-image {
-    width: 500px;
+    width: 300px;
     height: 300px;
-    object-fit: cover;
-    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 5px solid #4A3D32;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+}
+
+#resistances p {
+    font-size: 1.1em;
+    color: #C8BA9A;
 }
