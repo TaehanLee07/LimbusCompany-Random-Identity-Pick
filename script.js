@@ -1076,7 +1076,7 @@ const characters = [
         image: "images/GreGor/퐁그렉.png",
         resistances: {
             slash: "보통",
-            pierce: "취약`",
+            pierce: "취약",
             blunt: "내성"
         }
     },
